@@ -1,9 +1,9 @@
-@import "_variables.scss";
-@import "_mixings.scss";
+@use './index' as *;
 
-body{
-    background-color: $dark;
+body {
+    background-color: $secondary;
 }
+
 // .text-dark{
 //     @include text-pm($stara, $secondary);
 // }

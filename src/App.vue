@@ -1,9 +1,12 @@
 <script setup>
-import {button} from './components/button.vue'
+import Input from './components/Input.vue';
+import Bouton from './components/Bouton.vue';
 </script>
 
 <template>
-  <button></button>
+  <Input :type="'datetime-local'" :placeholder="'Entrez votre nom'"/>
+  <br>
+  <Bouton :texte="'Clique ici'" :type="'primary'"/>
 </template>
 
 <style scoped>
