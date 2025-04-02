@@ -1,0 +1,110 @@
+@import "_variables.scss";
+@import "_mixings.scss";
+
+body{
+    background-color: $dark;
+}
+// .text-dark{
+//     @include text-pm($stara, $secondary);
+// }
+// .text-grey{
+//     @include text-pm($stara, $gris);
+// }
+// .text-primary{
+//     @include text-pm($stara, $primary);
+// }
+// .text-light{
+//     @include text-pm($stara, $light);
+// }
+
+// .black-dark{
+//     @include text-xl($stara, $secondary);
+// }
+// .black-grey{
+//     @include text-xl($stara, $gris);
+// }
+// .black-primary{
+//     @include text-xl($stara, $primary);
+// }
+// .black-light{
+//     @include text-xl($stara, $light);
+// }
+
+// .bold-dark{
+//     @include text-gm($stara, $secondary);
+// }
+// .bold-grey{
+//     @include text-gm($stara, $gris);
+// }
+// .bold-primary{
+//     @include text-gm($stara, $primary);
+// }
+// .bold-light{
+//     @include text-gm($stara, $light);
+// }
+
+// .title-dark{
+//     @include title-xl($stara, $secondary);
+// }
+// .title-grey{
+//     @include title-xl($stara, $gris);
+// }
+// .title-primary{
+//     @include title-xl($stara, $primary);
+// }
+// .title-light{
+//     @include title-xl($stara, $light);
+// }
+
+// .conteneur-block{
+//     @include position-container();
+//     @include position-contenus(block, space-between, center);
+// }
+
+// .conteneur-flex{
+//     @include position-container();
+//     @include position-contenus(flex, space-between, center);
+// }
+
+// .bouton-1{
+//     @include bouton($primary, $secondary, $radius-pm, $stara);
+//     transition: all 0.5s ease-in-out;
+// }
+// .bouton-1:hover{
+//     font-weight: 700;
+// }
+// .bouton-2{
+//     @include bouton-variant($primary, $light, $radius-pm, $stara);
+//     transition: all 0.5s ease-in-out;
+// }
+// .bouton-2:hover{
+//     @include bouton($primary, $secondary, $radius-pm, $stara);
+// }
+
+// .input{
+//     @include bouton-variant($primary, $light, $radius-pm, $stara);
+//     width: 250px;
+//     .input::placeholder{
+//         color: $gris;
+//     }
+// }
+
+// .select{
+//     @include bouton-variant($primary, $light, $radius-pm, $stara);
+//     width: 295px;
+//     appearance: none;
+//     padding-right: 30px;
+// }
+// .option{
+//     @include bouton-variant($primary, $dark, $radius-pm, $stara);
+// }
+
+// .form-block{
+//     @include position-container();
+//     display: flex;
+//     flex-direction: column;
+//     padding: 64px;
+//     align-items: flex-start;
+//     background: $secondary;
+//     border-radius: $radius-gm 0px;
+// }
