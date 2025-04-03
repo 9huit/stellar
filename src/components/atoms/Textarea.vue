@@ -1,8 +1,12 @@
 <script setup>
 defineProps({
-    type: {
+    label: {
         type: String,
-        default: 'text'
+        default: ''
+    },
+    name: {
+        type: String,
+        default: ''
     },
     placeholder: {
         type: String,
@@ -15,14 +19,15 @@ defineProps({
 });
 </script>
 <template>
-    <input v-bind:type="type" v-bind:placeholder="placeholder" v-bind:value="value" />
+    <textarea :name="name"  :placeholder="placeholder" :value="value"></textarea>
 </template>
-<style lang="scss" scoped>
+<style lang="scss" scoped>  
 
-input{
+textarea{
     @include bouton-variant($primary, $light, $radius-pm, $stara);
     width: 250px;
-    .input::placeholder{
+    height: 135px;
+    textarea::placeholder{
         color: $gris;
     }
 }
