@@ -11,6 +11,6 @@
 .frame {
   @include position-contenus(flex, center, center);
   width: 100%;
-  height: 768px;
+  min-height: 768px;
 }
 </style>

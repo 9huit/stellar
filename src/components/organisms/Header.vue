@@ -7,7 +7,7 @@ defineProps({
     type: Array,
     default: () => [
       { texte: 'Accueil', lien: '/' },
-      { texte: 'À propos', lien: '/about' },
+      { texte: 'Boutique', lien: '/Boutique' },
       { texte: 'Contact', lien: '/contact' },
     ],
   },
@@ -21,7 +21,9 @@ defineProps({
         </div>
         <nav class="header-nav">
             <NavLi :link="link"/>
-            <Bouton :type="'secondary'" :texte="'Se connecter'"/>
+            <RouterLink :to="'/Login'">
+              <Bouton :type="'secondary'" :texte="'Se connecter'"/>
+            </RouterLink>
         </nav>
     </div>
 </header>

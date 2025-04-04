@@ -1,8 +1,25 @@
 <script setup>
-import { ref } from "vue";
-import Frame from "../organisms/Frame.vue";
-import Card from "../organisms/Card.vue";
-import Texte from "../atoms/Texte.vue";
+import { onMounted, ref } from 'vue'
+import { GetProducts } from "@/controllers/ProductController.js"
+import Frame from "../organisms/Frame.vue"
+import Card from "../organisms/Card.vue"
+import Texte from "../atoms/Texte.vue"
+
+const products = ref([])
+
+onMounted(async () => {
+  try {
+    products.value = await GetProducts()
+  } catch (e) {
+    console.error('Erreur dans ProductList.vue :', e)
+  }
+})
+const formatPrice = (price) => {
+  return price.toLocaleString('fr-FR', {
+    style: 'decimal',
+    minimumFractionDigits: 5,
+  });
+}
 </script>
 
 <template>
@@ -15,9 +32,18 @@ import Texte from "../atoms/Texte.vue";
         </div>
 
     <div class="scroll-content">
-      <div v-for="(item, index) in 6" :key="index" class="scroll-item">
-        <Card/>
-      </div>
+      <div
+          v-for="product in products"
+          :key="product.id"
+          class="scroll-item"
+        >
+          <Card
+            :id="product.id"
+            :title="product.label"
+            :description="product.description || 'Pas de description'"
+            :price="`${formatPrice(Number(product.price)) || 0} AR`"
+          />
+        </div>
     </div>
   </div>
   </Frame>

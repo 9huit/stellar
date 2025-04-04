@@ -10,11 +10,7 @@ import Locate from './components/pages/Locate.vue';
 
 <template>
   <Layout>
-    <LandingPage/>
-    <Caracteristiques/>
-    <VueEnsemble/>
-    <ProductList/>
-    <Locate/>
+    <RouterView/>
   </Layout>
 </template>
 

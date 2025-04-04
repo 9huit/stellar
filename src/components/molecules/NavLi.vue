@@ -8,9 +8,9 @@ defineProps({
     <div>
         <ul class="nav-ul">
             <li v-for="(item) in link" class="nav-li">
-                <a :href="item.lien" class="nav-a">
+                <RouterLink :to="item.lien" class="nav-a">
                     <Texte :type="'light'" :texte="item.texte"/>
-                </a>
+                </RouterLink>
             </li>
         </ul>
     </div>
