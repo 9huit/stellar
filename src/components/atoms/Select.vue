@@ -26,7 +26,7 @@ import Texte from './Texte.vue';
   <style lang="scss" scoped>
 .select{
     @include bouton-variant($primary, $light, $radius-pm, $stara);
-    width: 295px;
+    width: 245px;
     appearance: none;
     padding-right: 30px;
 }

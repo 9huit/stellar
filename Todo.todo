@@ -1,0 +1,925 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1743747342753,
+        "children": [],
+        "todo": {
+          "content": "API",
+          "id": 1743747342753,
+          "level": "default",
+          "done": false,
+          "start": 1743747342753
+        }
+      },
+      {
+        "key": 1743747357526,
+        "children": [
+          {
+            "key": 1743747799682,
+            "children": [
+              {
+                "key": 1743747865541,
+                "children": [
+                  {
+                    "key": 1743748267145,
+                    "children": [],
+                    "todo": {
+                      "content": "recup les donnees de dolibarr",
+                      "id": 1743748267145,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743748267145
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "Login",
+                  "id": 1743747865541,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743747865541
+                }
+              },
+              {
+                "key": 1743747893958,
+                "children": [],
+                "todo": {
+                  "content": "verifier si une personne est connectée",
+                  "id": 1743747893958,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743747893958
+                }
+              }
+            ],
+            "todo": {
+              "content": "Model",
+              "id": 1743747799682,
+              "level": "default",
+              "done": false,
+              "start": 1743747799682
+            }
+          },
+          {
+            "key": 1743747808668,
+            "children": [
+              {
+                "key": 1743747916965,
+                "children": [],
+                "todo": {
+                  "content": "Page de connexion admin",
+                  "id": 1743747916965,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743747916965
+                }
+              }
+            ],
+            "todo": {
+              "content": "Vue",
+              "id": 1743747808668,
+              "level": "default",
+              "done": false,
+              "start": 1743747808668
+            }
+          },
+          {
+            "key": 1743747812715,
+            "children": [
+              {
+                "key": 1743747938454,
+                "children": [],
+                "todo": {
+                  "content": "Appel login",
+                  "id": 1743747938454,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743747938454
+                }
+              },
+              {
+                "key": 1743748584616,
+                "children": [],
+                "todo": {
+                  "content": "Appel verification",
+                  "id": 1743748584616,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748584616
+                }
+              }
+            ],
+            "todo": {
+              "content": "Controller",
+              "id": 1743747812715,
+              "level": "default",
+              "done": false,
+              "start": 1743747812715,
+              "focus": false,
+              "end": 1743747931875
+            }
+          }
+        ],
+        "todo": {
+          "content": "Login admin",
+          "id": 1743747357526,
+          "level": "default",
+          "done": false,
+          "start": 1743747357526
+        }
+      },
+      {
+        "key": 1743747376437,
+        "children": [
+          {
+            "key": 1743747995390,
+            "children": [
+              {
+                "key": 1743748192351,
+                "children": [
+                  {
+                    "key": 1743748395807,
+                    "children": [],
+                    "todo": {
+                      "content": "recup donnees dolibarr",
+                      "id": 1743748395807,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743748395807
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "Login",
+                  "id": 1743748192351,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748192351
+                }
+              },
+              {
+                "key": 1743748201373,
+                "children": [
+                  {
+                    "key": 1743748435588,
+                    "children": [],
+                    "todo": {
+                      "content": "envoi des donnees du nouvel user vers dolibarr",
+                      "id": 1743748435588,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743748435588
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "Inscription",
+                  "id": 1743748201373,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748201373
+                }
+              },
+              {
+                "key": 1743748207114,
+                "children": [],
+                "todo": {
+                  "content": "VerificationLogin",
+                  "id": 1743748207114,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748207114
+                }
+              }
+            ],
+            "todo": {
+              "content": "Model",
+              "id": 1743747995390,
+              "level": "default",
+              "done": false,
+              "start": 1743747995390
+            }
+          },
+          {
+            "key": 1743748094693,
+            "children": [
+              {
+                "key": 1743748473684,
+                "children": [],
+                "todo": {
+                  "content": "page login",
+                  "id": 1743748473684,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748473684
+                }
+              },
+              {
+                "key": 1743748480354,
+                "children": [],
+                "todo": {
+                  "content": "page inscription",
+                  "id": 1743748480354,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748480354
+                }
+              }
+            ],
+            "todo": {
+              "content": "Vue",
+              "id": 1743748094693,
+              "level": "default",
+              "done": false,
+              "start": 1743748094693
+            }
+          },
+          {
+            "key": 1743748123499,
+            "children": [
+              {
+                "key": 1743748613415,
+                "children": [],
+                "todo": {
+                  "content": "appel login",
+                  "id": 1743748613415,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748613415
+                }
+              },
+              {
+                "key": 1743748645656,
+                "children": [],
+                "todo": {
+                  "content": "appel inscription",
+                  "id": 1743748645656,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748645656
+                }
+              },
+              {
+                "key": 1743748653012,
+                "children": [],
+                "todo": {
+                  "content": "appel verif",
+                  "id": 1743748653012,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748653012
+                }
+              }
+            ],
+            "todo": {
+              "content": "Controller",
+              "id": 1743748123499,
+              "level": "default",
+              "done": false,
+              "start": 1743748123499
+            }
+          }
+        ],
+        "todo": {
+          "content": "login & inscription client",
+          "id": 1743747376437,
+          "level": "default",
+          "done": false,
+          "start": 1743747376437
+        }
+      },
+      {
+        "key": 1743747391307,
+        "children": [
+          {
+            "key": 1743748847720,
+            "children": [
+              {
+                "key": 1743748956740,
+                "children": [
+                  {
+                    "key": 1743748978197,
+                    "children": [],
+                    "todo": {
+                      "content": "lister les produits (nom produit, description, prix, photo, stock, type, poids)",
+                      "id": 1743748978197,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743748978197
+                    }
+                  },
+                  {
+                    "key": 1743749099823,
+                    "children": [],
+                    "todo": {
+                      "content": "filtre produit",
+                      "id": 1743749099823,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749099823
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "Model",
+                  "id": 1743748956740,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748956740
+                }
+              },
+              {
+                "key": 1743748960753,
+                "children": [
+                  {
+                    "key": 1743749131743,
+                    "children": [],
+                    "todo": {
+                      "content": "page liste des produits avec bouton ajouter au panier et voir",
+                      "id": 1743749131743,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749131743
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "Vue",
+                  "id": 1743748960753,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748960753
+                }
+              },
+              {
+                "key": 1743748966706,
+                "children": [
+                  {
+                    "key": 1743749173988,
+                    "children": [],
+                    "todo": {
+                      "content": "appel liste produit",
+                      "id": 1743749173988,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749173988
+                    }
+                  },
+                  {
+                    "key": 1743749276127,
+                    "children": [],
+                    "todo": {
+                      "content": "appel filtre",
+                      "id": 1743749276127,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749276127
+                    }
+                  },
+                  {
+                    "key": 1743749282485,
+                    "children": [],
+                    "todo": {
+                      "content": "appel ajout panier",
+                      "id": 1743749282485,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749282485
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "Controller",
+                  "id": 1743748966706,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743748966706
+                }
+              }
+            ],
+            "todo": {
+              "content": "boutique",
+              "id": 1743748847720,
+              "level": "default",
+              "done": false,
+              "start": 1743748847720
+            }
+          },
+          {
+            "key": 1743747510270,
+            "children": [
+              {
+                "key": 1743749799953,
+                "children": [
+                  {
+                    "key": 1743749813839,
+                    "children": [],
+                    "todo": {
+                      "content": "listerPanierClient",
+                      "id": 1743749813839,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749813839
+                    }
+                  },
+                  {
+                    "key": 1743749878948,
+                    "children": [],
+                    "todo": {
+                      "content": "ajoutpanier",
+                      "id": 1743749878948,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749878948
+                    }
+                  },
+                  {
+                    "key": 1743749894505,
+                    "children": [],
+                    "todo": {
+                      "content": "supprimerdupanier",
+                      "id": 1743749894505,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749894505
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "model",
+                  "id": 1743749799953,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743749799953
+                }
+              },
+              {
+                "key": 1743749803509,
+                "children": [
+                  {
+                    "key": 1743749926568,
+                    "children": [],
+                    "todo": {
+                      "content": "pagepanier avec bouton commander",
+                      "id": 1743749926568,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749926568
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "vue",
+                  "id": 1743749803509,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743749803509
+                }
+              },
+              {
+                "key": 1743749807137,
+                "children": [
+                  {
+                    "key": 1743749988802,
+                    "children": [],
+                    "todo": {
+                      "content": "appel listpanierclient",
+                      "id": 1743749988802,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743749988802
+                    }
+                  },
+                  {
+                    "key": 1743750033253,
+                    "children": [],
+                    "todo": {
+                      "content": "appel supppanier",
+                      "id": 1743750033253,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743750033253
+                    }
+                  },
+                  {
+                    "key": 1743750042278,
+                    "children": [],
+                    "todo": {
+                      "content": "appel commande",
+                      "id": 1743750042278,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743750042278
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "controller",
+                  "id": 1743749807137,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743749807137
+                }
+              }
+            ],
+            "todo": {
+              "content": "panier",
+              "id": 1743747510270,
+              "level": "default",
+              "done": false,
+              "start": 1743747510270
+            }
+          },
+          {
+            "key": 1743747517287,
+            "children": [
+              {
+                "key": 1743750064538,
+                "children": [
+                  {
+                    "key": 1743750089373,
+                    "children": [],
+                    "todo": {
+                      "content": "validercommande (insert)",
+                      "id": 1743750089373,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743750089373
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "model",
+                  "id": 1743750064538,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743750064538
+                }
+              },
+              {
+                "key": 1743750070860,
+                "children": [],
+                "todo": {
+                  "content": "vue",
+                  "id": 1743750070860,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743750070860
+                }
+              },
+              {
+                "key": 1743750074317,
+                "children": [
+                  {
+                    "key": 1743750138103,
+                    "children": [],
+                    "todo": {
+                      "content": "appel commander",
+                      "id": 1743750138103,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743750138103
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "controller",
+                  "id": 1743750074317,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743750074317
+                }
+              }
+            ],
+            "todo": {
+              "content": "commande",
+              "id": 1743747517287,
+              "level": "default",
+              "done": false,
+              "start": 1743747517288
+            }
+          },
+          {
+            "key": 1743747753714,
+            "children": [
+              {
+                "key": 1743750759259,
+                "children": [
+                  {
+                    "key": 1743750826485,
+                    "children": [],
+                    "todo": {
+                      "content": "validerpaiement",
+                      "id": 1743750826485,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743750826485
+                    }
+                  },
+                  {
+                    "key": 1743751020087,
+                    "children": [],
+                    "todo": {
+                      "content": "verifformulaire",
+                      "id": 1743751020087,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743751020087
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "model",
+                  "id": 1743750759259,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743750759259
+                }
+              },
+              {
+                "key": 1743750763927,
+                "children": [
+                  {
+                    "key": 1743750840683,
+                    "children": [],
+                    "todo": {
+                      "content": "formulairepaiement",
+                      "id": 1743750840683,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743750840683
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "vue",
+                  "id": 1743750763927,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743750763927
+                }
+              },
+              {
+                "key": 1743750766974,
+                "children": [
+                  {
+                    "key": 1743751035227,
+                    "children": [],
+                    "todo": {
+                      "content": "appel verifform",
+                      "id": 1743751035227,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743751035227
+                    }
+                  },
+                  {
+                    "key": 1743750882245,
+                    "children": [],
+                    "todo": {
+                      "content": "appel validerpaiement",
+                      "id": 1743750882245,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743750882245
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "controller",
+                  "id": 1743750766974,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743750766974
+                }
+              }
+            ],
+            "todo": {
+              "content": "Paiement",
+              "id": 1743747753714,
+              "level": "default",
+              "done": false,
+              "start": 1743747753714
+            }
+          }
+        ],
+        "todo": {
+          "content": "Page boutique",
+          "id": 1743747391307,
+          "level": "default",
+          "done": false,
+          "start": 1743747391307
+        }
+      },
+      {
+        "key": 1743747783181,
+        "children": [
+          {
+            "key": 1743751089061,
+            "children": [
+              {
+                "key": 1743751120919,
+                "children": [],
+                "todo": {
+                  "content": "recupvente (avec toutes les info)",
+                  "id": 1743751120919,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743751120919
+                }
+              },
+              {
+                "key": 1743751256145,
+                "children": [],
+                "todo": {
+                  "content": "filtrevente",
+                  "id": 1743751256145,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743751256145
+                }
+              }
+            ],
+            "todo": {
+              "content": "model",
+              "id": 1743751089061,
+              "level": "default",
+              "done": false,
+              "start": 1743751089061
+            }
+          },
+          {
+            "key": 1743751092524,
+            "children": [
+              {
+                "key": 1743751172129,
+                "children": [
+                  {
+                    "key": 1743751197000,
+                    "children": [],
+                    "todo": {
+                      "content": "avec graphiques",
+                      "id": 1743751197000,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743751197000
+                    }
+                  },
+                  {
+                    "key": 1743751231427,
+                    "children": [],
+                    "todo": {
+                      "content": "filtre",
+                      "id": 1743751231427,
+                      "level": "default",
+                      "done": false,
+                      "start": 1743751231427
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "dashboard",
+                  "id": 1743751172129,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743751172129
+                }
+              }
+            ],
+            "todo": {
+              "content": "vue",
+              "id": 1743751092524,
+              "level": "default",
+              "done": false,
+              "start": 1743751092524
+            }
+          },
+          {
+            "key": 1743751102736,
+            "children": [
+              {
+                "key": 1743751381455,
+                "children": [],
+                "todo": {
+                  "content": "appel recupvente",
+                  "id": 1743751381455,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743751381455
+                }
+              },
+              {
+                "key": 1743751394107,
+                "children": [],
+                "todo": {
+                  "content": "appel filtrevente",
+                  "id": 1743751394107,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743751394107
+                }
+              },
+              {
+                "key": 1743751404335,
+                "children": [],
+                "todo": {
+                  "content": "appel verifloginadmin",
+                  "id": 1743751404335,
+                  "level": "default",
+                  "done": false,
+                  "start": 1743751404335
+                }
+              }
+            ],
+            "todo": {
+              "content": "controller",
+              "id": 1743751102736,
+              "level": "default",
+              "done": false,
+              "start": 1743751102736
+            }
+          }
+        ],
+        "todo": {
+          "content": "Dashboard",
+          "id": 1743747783181,
+          "level": "default",
+          "done": false,
+          "start": 1743747783181
+        }
+      },
+      {
+        "key": 1743747789281,
+        "children": [
+          {
+            "key": 1743751429653,
+            "children": [],
+            "todo": {
+              "content": "import multiple",
+              "id": 1743751429653,
+              "level": "default",
+              "done": false,
+              "start": 1743751429653
+            }
+          }
+        ],
+        "todo": {
+          "content": "import",
+          "id": 1743747789281,
+          "level": "default",
+          "done": false,
+          "start": 1743747789281
+        }
+      }
+    ],
+    "expandKeys": [
+      1743748192351,
+      1743748201373,
+      1743747391307,
+      1743748956740,
+      1743748978197,
+      1743748960753,
+      1743748966706,
+      1743749282485,
+      1743749799953,
+      1743749803509,
+      1743749807137,
+      1743747517287,
+      1743747753714,
+      1743750759259,
+      1743750763927,
+      1743750766974,
+      1743750826485,
+      1743747783181,
+      1743751089061,
+      1743751092524,
+      1743751172129,
+      1743751120919,
+      1743751102736,
+      1743747789281,
+      1743747357526,
+      1743747799682,
+      1743747808668,
+      1743747812715,
+      1743747376437,
+      1743747995390,
+      1743748094693,
+      1743748123499,
+      1743748847720,
+      1743747510270
+    ],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false,
+    "timelines": [],
+    "showLine": false,
+    "playFontSize": 24,
+    "title": "Todo",
+    "autoSort": false,
+    "showEndTime": false,
+    "simpleMode": false,
+    "lang": "en",
+    "version": "1743751461195"
+  }
+}

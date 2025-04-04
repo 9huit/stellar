@@ -46,4 +46,5 @@ defineProps({
 .text-bold-light{
     @include text-gm($stara, $light);
 }
+
 </style>
