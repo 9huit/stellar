@@ -17,3 +17,18 @@ export async function GetProducts() {
     throw error
   }
 }
+export async function GetProductById(id) {
+  try {
+    const api = API_URL+'/' + id
+    console.log(api)
+    const response = await axios.get(api, {
+      headers: {
+        'DOLAPIKEY': API_KEY
+      }
+    })
+    return response.data
+  } catch (error) {
+    console.error('[ProductController] Erreur API Dolibarr :', error)
+    throw error
+  }
+}

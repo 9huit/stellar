@@ -11,6 +11,9 @@ defineProps({
 .text-dark{
     @include text-pm($stara, $secondary);
 }
+.text-error{
+    @include text-pm($stara, $error);
+}
 .text-grey{
     @include text-pm($stara, $gris);
 }
@@ -20,7 +23,9 @@ defineProps({
 .text-light{
     @include text-pm($stara, $light);
 }
-
+.text-black-error{
+    @include text-xl($stara, $error);
+}
 .text-black-dark{
     @include text-xl($stara, $secondary);
 }

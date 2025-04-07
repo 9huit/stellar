@@ -2,13 +2,25 @@
 import NavLi from '../molecules/NavLi.vue'
 import Bouton from '../atoms/Bouton.vue'
 import Logo from '../atoms/Logo.vue';
+import Login from '@/views/Login.vue';
+import { logoutUser } from '@/controllers/UserController';
+import { ref } from 'vue';
+
+const user = JSON.parse(sessionStorage.getItem('user'))
+
+const showLogin = ref(false);
+const handleSubmit = () => {
+  logoutUser()
+}
 defineProps({
   link: {
     type: Array,
     default: () => [
       { texte: 'Accueil', lien: '/' },
       { texte: 'Boutique', lien: '/Boutique' },
-      { texte: 'Contact', lien: '/contact' },
+      { texte: 'Panier', lien: '/Panier' },
+      { texte: 'Mes commandes', lien: '/MesCommandes' },
+      // { texte: 'Contact', lien: '/contact' },
     ],
   },
 });
@@ -21,10 +33,14 @@ defineProps({
         </div>
         <nav class="header-nav">
             <NavLi :link="link"/>
-            <RouterLink :to="'/Login'">
-              <Bouton :type="'secondary'" :texte="'Se connecter'"/>
-            </RouterLink>
+            <!-- <RouterLink :to="'/Login'"> -->
+              <Bouton :type="'secondary'" :texte="'Se connecter'" @click="showLogin = true" v-if="!user"/>
+                <Bouton :type="'secondary'" :texte="'Se deconnecter'"  v-else @click="handleSubmit"/>
+            <!-- </RouterLink> -->
         </nav>
+    </div>
+    <div class="login">
+                <Login  v-show="showLogin" @close="showLogin = false"/>
     </div>
 </header>
 </template>

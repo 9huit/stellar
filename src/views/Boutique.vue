@@ -4,7 +4,7 @@ import { GetProducts } from "@/controllers/ProductController.js"
 import Texte from '@/components/atoms/Texte.vue'
 import Card from "@/components/organisms/Card.vue"
 import Frame from "@/components/organisms/Frame.vue"
-import Input from '@/components/atoms/Input.vue'
+const user = JSON.parse(sessionStorage.getItem('user'))
 
 const products = ref([])
 const search = ref('')
@@ -22,7 +22,7 @@ onMounted(async () => {
 const formatPrice = (price) => {
   return price.toLocaleString('fr-FR', {
     style: 'decimal',
-    minimumFractionDigits: 5,
+    minimumFractionDigits: 0,
   });
 }
 
@@ -48,7 +48,10 @@ const filteredProducts = computed(() => {
   <Frame>
     <div class="container">
       <div class="entete">
-        <Texte type="black-light" texte="Bienvenus" />
+        <div class="welcome">
+          <Texte type="black-light" :texte="'Bienvenu'" />
+          <Texte v-if="user" type="black-light" :texte="user.name" />
+        </div>
         <Texte type="light" texte="Nous avons pour vous toutes sortes de produits !" />
         <div class="filter">
         <input
@@ -75,10 +78,12 @@ const filteredProducts = computed(() => {
       <div class="produits">
         <Card
           v-for="product in filteredProducts"
+          :id="product.id"
           :key="product.id"
           :title="product.label"
           :description="product.description"
-          :price="formatPrice(Number(product.price)) + ' AR'"
+          :formattedPrice="formatPrice(Number(product.price)) + ' $'"
+          :price="Number(product.price)"
         />
       </div>
     </div>
@@ -121,6 +126,11 @@ const filteredProducts = computed(() => {
   @include position-contenus(flex, baseline, center);
   flex-wrap: wrap;
   gap: 24px;
+  width: 100%;
+}
+.welcome {
+  @include position-contenus(flex, baseline, center);
+  gap: 8px;
   width: 100%;
 }
 </style>

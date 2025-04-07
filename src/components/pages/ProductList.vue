@@ -17,7 +17,8 @@ onMounted(async () => {
 const formatPrice = (price) => {
   return price.toLocaleString('fr-FR', {
     style: 'decimal',
-    minimumFractionDigits: 5,
+    minimumFractionDigits: 0,
+    // maximumFractionDigits: 5
   });
 }
 </script>
@@ -41,7 +42,9 @@ const formatPrice = (price) => {
             :id="product.id"
             :title="product.label"
             :description="product.description || 'Pas de description'"
-            :price="`${formatPrice(Number(product.price)) || 0} AR`"
+            :formattedPrice="`${formatPrice(Number(product.price)) || 0} $`"
+            :price="Number(product.price)"
+
           />
         </div>
     </div>

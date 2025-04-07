@@ -13,6 +13,7 @@ const showReservation = ref(false);
             <div class="reservation">
                 <Reservation  v-show="showReservation" @close="showReservation = false"/>
             </div>
+            
             <div class="container">
                 <div class="accroche">
                     <p>
