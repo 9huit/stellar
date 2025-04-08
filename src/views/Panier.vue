@@ -69,7 +69,7 @@ onMounted(() => {
       <Login v-show="usr == false"/>
         <div class="container">
         <Bouton type="primary" texte="Vider le panier" @click="viderPanier"/>
-        <Texte type="bold-light" :texte="'Votre panier est vide ! ' + total" v-if="panier.length<1"/>
+        <Texte type="bold-light" :texte="'Votre panier est vide ! '" v-if="panier.length<1"/>
         <div class="panier" v-else v-for="produit in panier" :key="produit.id">
             <Texte type="bold-light" :texte="produit.title" />
             <Texte type="light" :texte="produit.description" />
@@ -82,14 +82,14 @@ onMounted(() => {
             </div>
         </div>
         <Texte type="black-primary" :texte="'Total :'+total"/>
-        <Bouton type="primary" texte="Commander" @click="commander"/>
+        <Bouton type="primary" texte="Commander" @click="commander" v-if="panier.length>0"/>
     </div>
     </Frame>
 </template>
 <style lang="scss" scoped>
 .panier{
     @include position-contenus(flex, center, center);
-    flex-direction: column;
+    
     gap: 24px;
 }
 .container{

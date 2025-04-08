@@ -8,8 +8,10 @@
           "content": "API",
           "id": 1743747342753,
           "level": "default",
-          "done": false,
-          "start": 1743747342753
+          "done": true,
+          "start": 1743747342753,
+          "focus": false,
+          "end": 1744092889202
         }
       },
       {
@@ -219,8 +221,10 @@
                           "content": "poids",
                           "id": 1743886107667,
                           "level": "default",
-                          "done": false,
-                          "start": 1743886107667
+                          "done": true,
+                          "start": 1743886107667,
+                          "focus": false,
+                          "end": 1744091879913
                         }
                       },
                       {
@@ -230,8 +234,10 @@
                           "content": "stock",
                           "id": 1743886114272,
                           "level": "default",
-                          "done": false,
-                          "start": 1743886114272
+                          "done": true,
+                          "start": 1743886114272,
+                          "focus": false,
+                          "end": 1744091880939
                         }
                       }
                     ],
@@ -263,8 +269,10 @@
                   "content": "Model",
                   "id": 1743748956740,
                   "level": "default",
-                  "done": false,
-                  "start": 1743748956740
+                  "done": true,
+                  "start": 1743748956740,
+                  "focus": false,
+                  "end": 1744091885490
                 }
               },
               {
@@ -352,8 +360,10 @@
               "content": "boutique",
               "id": 1743748847720,
               "level": "default",
-              "done": false,
-              "start": 1743748847720
+              "done": true,
+              "start": 1743748847720,
+              "focus": false,
+              "end": 1744091886707
             }
           },
           {
@@ -422,8 +432,21 @@
                       "content": "pagepanier avec bouton commander",
                       "id": 1743749926568,
                       "level": "default",
+                      "done": true,
+                      "start": 1743749926568,
+                      "focus": false,
+                      "end": 1744091909469
+                    }
+                  },
+                  {
+                    "key": 1744092904552,
+                    "children": [],
+                    "todo": {
+                      "content": "CSS",
+                      "id": 1744092904552,
+                      "level": "default",
                       "done": false,
-                      "start": 1743749926568
+                      "start": 1744092904552
                     }
                   }
                 ],
@@ -432,7 +455,9 @@
                   "id": 1743749803509,
                   "level": "default",
                   "done": false,
-                  "start": 1743749803509
+                  "start": 1743749803509,
+                  "focus": false,
+                  "end": 1744091910622
                 }
               },
               {
@@ -471,8 +496,10 @@
                       "content": "appel commande",
                       "id": 1743750042278,
                       "level": "default",
-                      "done": false,
-                      "start": 1743750042278
+                      "done": true,
+                      "start": 1743750042278,
+                      "focus": false,
+                      "end": 1744091914042
                     }
                   }
                 ],
@@ -480,8 +507,10 @@
                   "content": "controller",
                   "id": 1743749807137,
                   "level": "default",
-                  "done": false,
-                  "start": 1743749807137
+                  "done": true,
+                  "start": 1743749807137,
+                  "focus": false,
+                  "end": 1744091912189
                 }
               }
             ],
@@ -489,8 +518,10 @@
               "content": "panier",
               "id": 1743747510270,
               "level": "default",
-              "done": false,
-              "start": 1743747510270
+              "done": true,
+              "start": 1743747510270,
+              "focus": false,
+              "end": 1744092509624
             }
           },
           {
@@ -503,11 +534,65 @@
                     "key": 1743750089373,
                     "children": [],
                     "todo": {
-                      "content": "validercommande (insert)",
+                      "content": "commande validee",
                       "id": 1743750089373,
                       "level": "default",
-                      "done": false,
-                      "start": 1743750089373
+                      "done": true,
+                      "start": 1743750089373,
+                      "focus": false,
+                      "end": 1744091971207
+                    }
+                  },
+                  {
+                    "key": 1744091951392,
+                    "children": [],
+                    "todo": {
+                      "content": "facture effectuee",
+                      "id": 1744091951392,
+                      "level": "default",
+                      "done": true,
+                      "start": 1744091951392,
+                      "focus": false,
+                      "end": 1744091972477
+                    }
+                  },
+                  {
+                    "key": 1744091962931,
+                    "children": [],
+                    "todo": {
+                      "content": "payee",
+                      "id": 1744091962931,
+                      "level": "default",
+                      "done": true,
+                      "start": 1744091962931,
+                      "focus": false,
+                      "end": 1744091973786
+                    }
+                  },
+                  {
+                    "key": 1744092009430,
+                    "children": [],
+                    "todo": {
+                      "content": "listerFacture",
+                      "id": 1744092009430,
+                      "level": "default",
+                      "done": true,
+                      "start": 1744092009430,
+                      "focus": false,
+                      "end": 1744092136917
+                    }
+                  },
+                  {
+                    "key": 1744092123707,
+                    "children": [],
+                    "todo": {
+                      "content": "listerCommande",
+                      "id": 1744092123707,
+                      "level": "default",
+                      "done": true,
+                      "start": 1744092123707,
+                      "focus": false,
+                      "end": 1744092138201
                     }
                   }
                 ],
@@ -515,19 +600,37 @@
                   "content": "model",
                   "id": 1743750064538,
                   "level": "default",
-                  "done": false,
-                  "start": 1743750064538
+                  "done": true,
+                  "start": 1743750064538,
+                  "focus": false,
+                  "end": 1744092176454
                 }
               },
               {
                 "key": 1743750070860,
-                "children": [],
+                "children": [
+                  {
+                    "key": 1744091984788,
+                    "children": [],
+                    "todo": {
+                      "content": "page mes commandes avec les statuts",
+                      "id": 1744091984788,
+                      "level": "default",
+                      "done": true,
+                      "start": 1744091984788,
+                      "focus": false,
+                      "end": 1744092004041
+                    }
+                  }
+                ],
                 "todo": {
                   "content": "vue",
                   "id": 1743750070860,
                   "level": "default",
-                  "done": false,
-                  "start": 1743750070860
+                  "done": true,
+                  "start": 1743750070860,
+                  "focus": false,
+                  "end": 1744092005245
                 }
               },
               {
@@ -537,11 +640,26 @@
                     "key": 1743750138103,
                     "children": [],
                     "todo": {
-                      "content": "appel commander",
+                      "content": "appel listerFacture",
                       "id": 1743750138103,
                       "level": "default",
-                      "done": false,
-                      "start": 1743750138103
+                      "done": true,
+                      "start": 1743750138103,
+                      "focus": false,
+                      "end": 1744092439628
+                    }
+                  },
+                  {
+                    "key": 1744092412752,
+                    "children": [],
+                    "todo": {
+                      "content": "appel listerCommande",
+                      "id": 1744092412752,
+                      "level": "default",
+                      "done": true,
+                      "start": 1744092412753,
+                      "focus": false,
+                      "end": 1744092441358
                     }
                   }
                 ],
@@ -549,8 +667,10 @@
                   "content": "controller",
                   "id": 1743750074317,
                   "level": "default",
-                  "done": false,
-                  "start": 1743750074317
+                  "done": true,
+                  "start": 1743750074317,
+                  "focus": false,
+                  "end": 1744092438617
                 }
               }
             ],
@@ -558,111 +678,10 @@
               "content": "commande",
               "id": 1743747517287,
               "level": "danger",
-              "done": false,
-              "start": 1743747517288
-            }
-          },
-          {
-            "key": 1743747753714,
-            "children": [
-              {
-                "key": 1743750759259,
-                "children": [
-                  {
-                    "key": 1743750826485,
-                    "children": [],
-                    "todo": {
-                      "content": "validerpaiement",
-                      "id": 1743750826485,
-                      "level": "default",
-                      "done": false,
-                      "start": 1743750826485
-                    }
-                  },
-                  {
-                    "key": 1743751020087,
-                    "children": [],
-                    "todo": {
-                      "content": "verifformulaire",
-                      "id": 1743751020087,
-                      "level": "default",
-                      "done": false,
-                      "start": 1743751020087
-                    }
-                  }
-                ],
-                "todo": {
-                  "content": "model",
-                  "id": 1743750759259,
-                  "level": "default",
-                  "done": false,
-                  "start": 1743750759259
-                }
-              },
-              {
-                "key": 1743750763927,
-                "children": [
-                  {
-                    "key": 1743750840683,
-                    "children": [],
-                    "todo": {
-                      "content": "formulairepaiement",
-                      "id": 1743750840683,
-                      "level": "default",
-                      "done": false,
-                      "start": 1743750840683
-                    }
-                  }
-                ],
-                "todo": {
-                  "content": "vue",
-                  "id": 1743750763927,
-                  "level": "default",
-                  "done": false,
-                  "start": 1743750763927
-                }
-              },
-              {
-                "key": 1743750766974,
-                "children": [
-                  {
-                    "key": 1743751035227,
-                    "children": [],
-                    "todo": {
-                      "content": "appel verifform",
-                      "id": 1743751035227,
-                      "level": "default",
-                      "done": false,
-                      "start": 1743751035227
-                    }
-                  },
-                  {
-                    "key": 1743750882245,
-                    "children": [],
-                    "todo": {
-                      "content": "appel validerpaiement",
-                      "id": 1743750882245,
-                      "level": "default",
-                      "done": false,
-                      "start": 1743750882245
-                    }
-                  }
-                ],
-                "todo": {
-                  "content": "controller",
-                  "id": 1743750766974,
-                  "level": "default",
-                  "done": false,
-                  "start": 1743750766974
-                }
-              }
-            ],
-            "todo": {
-              "content": "Paiement",
-              "id": 1743747753714,
-              "level": "default",
-              "done": false,
-              "start": 1743747753714
+              "done": true,
+              "start": 1743747517288,
+              "focus": false,
+              "end": 1744092179514
             }
           }
         ],
@@ -670,8 +689,10 @@
           "content": "Page boutique",
           "id": 1743747391307,
           "level": "default",
-          "done": false,
-          "start": 1743747391307
+          "done": true,
+          "start": 1743747391307,
+          "focus": false,
+          "end": 1744091889691
         }
       },
       {
@@ -687,8 +708,10 @@
                   "content": "recupvente (avec toutes les info)",
                   "id": 1743751120919,
                   "level": "default",
-                  "done": false,
-                  "start": 1743751120919
+                  "done": true,
+                  "start": 1743751120919,
+                  "focus": false,
+                  "end": 1744092481708
                 }
               },
               {
@@ -698,8 +721,10 @@
                   "content": "filtrevente",
                   "id": 1743751256145,
                   "level": "default",
-                  "done": false,
-                  "start": 1743751256145
+                  "done": true,
+                  "start": 1743751256145,
+                  "focus": false,
+                  "end": 1744092483299
                 }
               }
             ],
@@ -707,8 +732,10 @@
               "content": "model",
               "id": 1743751089061,
               "level": "default",
-              "done": false,
-              "start": 1743751089061
+              "done": true,
+              "start": 1743751089061,
+              "focus": false,
+              "end": 1744092480121
             }
           },
           {
@@ -724,8 +751,10 @@
                       "content": "avec graphiques",
                       "id": 1743751197000,
                       "level": "default",
-                      "done": false,
-                      "start": 1743751197000
+                      "done": true,
+                      "start": 1743751197000,
+                      "focus": false,
+                      "end": 1744092489946
                     }
                   },
                   {
@@ -735,8 +764,10 @@
                       "content": "filtre",
                       "id": 1743751231427,
                       "level": "default",
-                      "done": false,
-                      "start": 1743751231427
+                      "done": true,
+                      "start": 1743751231427,
+                      "focus": false,
+                      "end": 1744092491174
                     }
                   }
                 ],
@@ -744,8 +775,10 @@
                   "content": "dashboard",
                   "id": 1743751172129,
                   "level": "default",
-                  "done": false,
-                  "start": 1743751172129
+                  "done": true,
+                  "start": 1743751172129,
+                  "focus": false,
+                  "end": 1744092488635
                 }
               }
             ],
@@ -753,8 +786,10 @@
               "content": "vue",
               "id": 1743751092524,
               "level": "default",
-              "done": false,
-              "start": 1743751092524
+              "done": true,
+              "start": 1743751092524,
+              "focus": false,
+              "end": 1744092487385
             }
           },
           {
@@ -767,8 +802,10 @@
                   "content": "appel recupvente",
                   "id": 1743751381455,
                   "level": "default",
-                  "done": false,
-                  "start": 1743751381455
+                  "done": true,
+                  "start": 1743751381455,
+                  "focus": false,
+                  "end": 1744092496278
                 }
               },
               {
@@ -778,8 +815,10 @@
                   "content": "appel filtrevente",
                   "id": 1743751394107,
                   "level": "default",
-                  "done": false,
-                  "start": 1743751394107
+                  "done": true,
+                  "start": 1743751394107,
+                  "focus": false,
+                  "end": 1744092497444
                 }
               },
               {
@@ -789,8 +828,10 @@
                   "content": "appel verifloginadmin",
                   "id": 1743751404335,
                   "level": "default",
-                  "done": false,
-                  "start": 1743751404335
+                  "done": true,
+                  "start": 1743751404335,
+                  "focus": false,
+                  "end": 1744092499834
                 }
               }
             ],
@@ -798,8 +839,10 @@
               "content": "controller",
               "id": 1743751102736,
               "level": "default",
-              "done": false,
-              "start": 1743751102736
+              "done": true,
+              "start": 1743751102736,
+              "focus": false,
+              "end": 1744092495232
             }
           }
         ],
@@ -807,8 +850,10 @@
           "content": "Dashboard",
           "id": 1743747783181,
           "level": "default",
-          "done": false,
-          "start": 1743747783181
+          "done": true,
+          "start": 1743747783181,
+          "focus": false,
+          "end": 1744092484955
         }
       },
       {
@@ -821,8 +866,10 @@
               "content": "import multiple",
               "id": 1743751429653,
               "level": "default",
-              "done": false,
-              "start": 1743751429653
+              "done": true,
+              "start": 1743751429653,
+              "focus": false,
+              "end": 1744092502139
             }
           }
         ],
@@ -830,8 +877,10 @@
           "content": "import",
           "id": 1743747789281,
           "level": "default",
-          "done": false,
-          "start": 1743747789281
+          "done": true,
+          "start": 1743747789281,
+          "focus": false,
+          "end": 1744092500912
         }
       }
     ],
@@ -847,7 +896,6 @@
       1743749799953,
       1743749803509,
       1743749807137,
-      1743747753714,
       1743750759259,
       1743750763927,
       1743750766974,
@@ -870,7 +918,8 @@
       1743747517287,
       1743749988802,
       1743750064538,
-      1743750074317
+      1743750074317,
+      1743750070860
     ],
     "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
     "add_mode": "bottom",
@@ -883,6 +932,6 @@
     "showEndTime": false,
     "simpleMode": false,
     "lang": "en",
-    "version": "1743913951695"
+    "version": "1744092910070"
   }
 }

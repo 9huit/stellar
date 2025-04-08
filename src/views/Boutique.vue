@@ -82,7 +82,7 @@ const filteredProducts = computed(() => {
           :key="product.id"
           :title="product.label"
           :description="product.description"
-          :formattedPrice="formatPrice(Number(product.price)) + ' $'"
+          :formattedPrice="formatPrice(Number(product.price))  + '$ HT (' +Number(product.price * (1 + product.tva_tx/100))+'$ TTC)'"
           :price="Number(product.price)"
         />
       </div>

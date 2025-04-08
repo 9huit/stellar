@@ -15,6 +15,7 @@
       id: props.id,
       title: props.title,
       description: props.description,
+      formattedPrice: props.price,
       price: props.price,
       quantite: 1 // Quantité initiale
     }
@@ -44,7 +45,7 @@
       <div class="info">
         <Texte type="bold-light" :texte="title" />
         <Texte type="grey" :texte="description" />
-        <Texte type="black-primary" :texte="price" />
+        <Texte type="black-primary" :texte="formattedPrice" />
         <Bouton type="primary" texte="Ajouter au panier" @click="ajouterAuPanier" />
       </div>
     </div>
