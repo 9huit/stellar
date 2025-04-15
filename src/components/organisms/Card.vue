@@ -2,12 +2,16 @@
   import { defineProps } from 'vue'
   import Texte from '@/components/atoms/Texte.vue'
   import Bouton from '@/components/atoms/Bouton.vue'
+  // vaovao
+  import Rating from '@/components/molecules/Rating.vue'
+  
   const props = defineProps({
     id: Number,
     title: String,
     description: String,
     price: Number,
-    formattedPrice: String
+    formattedPrice: String,
+    note: Number
   })
   
   const ajouterAuPanier = () => {
@@ -40,12 +44,20 @@
   }
   </script>
 <template>
-    <div class="card"> 
+    <div class="card">
       <img src="../../assets/img/sx.png" alt="">
       <div class="info">
         <Texte type="bold-light" :texte="title" />
+        <div class="desc">
         <Texte type="grey" :texte="description" />
+        </div>
         <Texte type="black-primary" :texte="formattedPrice" />
+        <div class="note">
+          <Texte type="light" :texte="note" />
+          <!-- vaovao -->
+          <Rating :note="note"/> 
+        </div>
+          
         <Bouton type="primary" texte="Ajouter au panier" @click="ajouterAuPanier" />
       </div>
     </div>
@@ -82,5 +94,11 @@
         position:relative;
         margin: 0px -282px 20px;
     }
-    
+    .note{
+        @include position-contenus(flex, baseline, center);
+        padding-bottom: 10px;
+    }
+    .desc{
+        max-width: 290px;
+    }
 </style>

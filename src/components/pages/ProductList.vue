@@ -42,7 +42,7 @@ const formatPrice = (price) => {
             :id="product.id"
             :title="product.label"
             :description="product.description || 'Pas de description'"
-            :formattedPrice="formatPrice(Number(product.price))  + '$ HT (' +Number(product.price * (1 + product.tva_tx/100))+'$ TTC)'"
+            :formattedPrice="formatPrice(Number(product.price))  + '$ HT'"
             :price="Number(product.price)"
 
           />

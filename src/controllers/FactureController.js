@@ -35,3 +35,26 @@ export async function getFacture() {
     throw new Error(`Échec récupération facture: ${error.response?.data?.error || error.message}`);
   }
 }
+  export async function getFactureByRef(ref) {
+    try {
+      // 1. Construction plus sûre de l'URL
+      const url = `${API_URL}?sqlfilters=${filters}`;
+        const sqlfilters = encodeURIComponent(
+          `(t.ref:like:'${ref}')`
+        )
+    
+        const api = `${API_URL}?sqlfilters=${sqlfilters}`
+    
+        const response = await axios.get(api, {
+          headers: {
+            'DOLAPIKEY': API_KEY
+          }
+        })
+    
+        return response.data
+      } catch (error) {
+        console.error('[ProductController] Erreur API Dolibarr :', error)
+        // alert(error)
+        throw error
+      }
+  }
